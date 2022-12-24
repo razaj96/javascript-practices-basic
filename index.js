@@ -23,3 +23,8 @@ function getDate() {
 }
 
 getDate();
+
+// problem 2
+function printPage() {
+  window.print();
+}

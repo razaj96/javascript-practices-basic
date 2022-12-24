@@ -28,3 +28,7 @@ getDate();
 function printPage() {
   window.print();
 }
+
+// problem 3
+let fullDate = today.toLocaleDateString();
+document.getElementById("solution-3").innerHTML = fullDate;
